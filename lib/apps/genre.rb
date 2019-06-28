@@ -30,7 +30,4 @@ class Genre
   def self.create(genre)
     self.new(genre).tap {|genre| genre.save}
   end
-  
-  
-  
 end
